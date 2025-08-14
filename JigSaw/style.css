@@ -59,12 +59,4 @@ body{
     position: absolute;
     left: 400px;
     top:400px;
-
-.puzzle-piece {
-  position: absolute;
-  z-index: 10; /* Make sure this is higher than the grid */
-}
-.grid {
-  position: relative;
-  z-index: 1;
 }
