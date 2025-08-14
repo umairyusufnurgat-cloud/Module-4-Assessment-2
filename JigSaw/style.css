@@ -1,62 +1,37 @@
-body{
-    margin: 0;
-    padding: 0;
-    width: 100%;
-    height: 100%;
-    background-color: deepskyblue;
+body {
+  background: linear-gradient(to bottom right, #a1c4fd, #c2e9fb);
+  font-family: sans-serif;
+  text-align: center;
 }
 
-
-#grid1-1{
-    position: absolute;
-    left: 0px;
-    top: 0px;
+#puzzle-container {
+  position: relative;
+  width: 400px;
+  height: 400px;
+  margin: 20px auto;
 }
 
-#grid1-2{
-    position: absolute;
-    left: 200px;
-    top: 0px;
+.puzzle-piece {
+  position: absolute;
+  width: 100px;
+  height: 100px;
+  z-index: 10;
+  cursor: grab;
 }
 
-#grid1-3{
-    position: absolute;
-    left: 400px;
-    top: 0px;
+#grid-container {
+  display: grid;
+  grid-template-columns: repeat(2, 100px);
+  grid-template-rows: repeat(2, 100px);
+  gap: 10px;
+  justify-content: center;
+  margin-top: 20px;
 }
 
-#grid2-1{
-    position: absolute;
-    left: 0px;
-    top: 200px;
+.grid-cell {
+  width: 100px;
+  height: 100px;
+  border: 2px dashed #333;
+  background-color: #fff;
 }
 
-#grid2-2{
-    position: absolute;
-    left: 200px;
-    top: 200px;
-}
-
-#grid2-3{
-    position: absolute;
-    left: 400px;
-    top: 200px;
-}
-
-#grid3-1{
-    position: absolute;
-    left: 0px;
-    top: 400px;
-}
-
-#grid3-2{
-    position: absolute;
-    left: 200px;
-    top: 400px;
-}
-
-#grid3-3{
-    position: absolute;
-    left: 400px;
-    top:400px;
-}
