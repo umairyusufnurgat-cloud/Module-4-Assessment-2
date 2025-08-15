@@ -9,55 +9,55 @@ body{
 
 #grid1-1{
     position: absolute;
-    left: 0px;
+    left: 200px;
     top: 150px;
 }
 
 #grid1-2{
     position: absolute;
-    left: 200px;
+    left: 400px;
     top: 150px;
 }
 
 #grid1-3{
     position: absolute;
-    left: 400px;
+    left: 600px;
     top: 150px;
 }
 
 #grid2-1{
     position: absolute;
-    left: 0px;
+    left: 200px;
     top: 350px;
 }
 
 #grid2-2{
     position: absolute;
-    left: 200px;
+    left: 400px;
     top: 350px;
 }
 
 #grid2-3{
     position: absolute;
-    left: 400px;
+    left: 600px;
     top: 350px;
 }
 
 #grid3-1{
     position: absolute;
-    left: 0px;
+    left: 200px;
     top: 550px;
 }
 
 #grid3-2{
     position: absolute;
-    left: 200px;
+    left: 400px;
     top: 550px;
 }
 
 #grid3-3{
     position: absolute;
-    left: 400px;
+    left: 600px;
     top:550px;
 }
 
