@@ -10,55 +10,55 @@ body{
 #grid1-1{
     position: absolute;
     left: 450px;
-    top: 250px;
+    top: 300px;
 }
 
 #grid1-2{
     position: absolute;
     left: 650px;
-    top: 250px;
+    top: 300px;
 }
 
 #grid1-3{
     position: absolute;
     left: 850px;
-    top: 250px;
+    top: 300px;
 }
 
 #grid2-1{
     position: absolute;
     left: 450px;
-    top: 450px;
+    top: 500px;
 }
 
 #grid2-2{
     position: absolute;
     left: 650px;
-    top: 450px;
+    top: 500px;
 }
 
 #grid2-3{
     position: absolute;
     left: 850px;
-    top: 450px;
+    top: 500px;
 }
 
 #grid3-1{
     position: absolute;
     left: 450px;
-    top: 650px;
+    top: 700px;
 }
 
 #grid3-2{
     position: absolute;
     left: 650px;
-    top: 650px;
+    top: 700px;
 }
 
 #grid3-3{
     position: absolute;
     left: 850px;
-    top:650px;
+    top:700px;
 }
 
 #welcome-banner {
